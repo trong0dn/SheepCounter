@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SheepCounter:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SheepCounter_jar</output-path>
+    <root id="archive" name="SheepCounter.jar">
+      <element id="module-output" name="SheepCounter" />
+      <element id="module-source" name="SheepCounter" />
+    </root>
+  </artifact>
+</component>
