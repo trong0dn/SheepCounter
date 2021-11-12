@@ -41,6 +41,10 @@ public class SheepCounterModel {
         updateViews();
     }
 
+    public void setCurrentSheep(int currentSheep) {
+        this.currentSheep = currentSheep;
+    }
+
     public void increment() {
         this.currentSheep++;
         updateViews();
