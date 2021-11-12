@@ -19,7 +19,7 @@ public class SheepCounterFrame extends JFrame implements SheepCounterView {
         JLabel totalLabel = new JLabel("Total Sheep");
         totalLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        totalTextField = new JTextField("0");
+        totalTextField = new JTextField();
         totalTextField.setBackground(Color.WHITE);
         totalTextField.setHorizontalAlignment(SwingConstants.CENTER);
         totalTextField.setActionCommand("total");
@@ -28,7 +28,7 @@ public class SheepCounterFrame extends JFrame implements SheepCounterView {
         JLabel currentLabel = new JLabel("Current Sheep");
         currentLabel.setHorizontalAlignment(SwingConstants.CENTER);
 
-        currentTextField = new JTextField("0");
+        currentTextField = new JTextField();
         currentTextField.setHorizontalAlignment(SwingConstants.CENTER);
         currentTextField.setBackground(Color.WHITE);
         currentTextField.setActionCommand("current");
